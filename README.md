@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://code-reward-model.github.io/">[🏠 Homepage]</a> 
-  |<a href="">[📄 arXiv]</a> |
+  |<a href="https://arxiv.org/abs/2501.01054">[📄 arXiv]</a> |
 <a href="https://huggingface.co/datasets/KAKA22/CodeRM-UnitTest">[📊 Dataset]</a> |
 <a href="https://huggingface.co/KAKA22/CodeRM-8B">[📦 Model]</a> |
   <a href="https://github.com/RUCKBReasoning/CodeRM">[💻 Code]</a> 
@@ -187,6 +187,15 @@ python evaluation/calculate_result.py --benchmark BENCHMARK --sol_model SOL_MODE
 
 If you find our dataset helpful, please cite the original paper:
 ```
+@misc{ma2025coderm,
+      title={Dynamic Scaling of Unit Tests for Code Reward Modeling}, 
+      author={Zeyao Ma and Xiaokang Zhang and Jing Zhang and Jifan Yu and Sijia Luo and Jie Tang},
+      year={2025},
+      eprint={2501.01054},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.01054}, 
+}
 ```
 
 ## Contact
