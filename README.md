@@ -122,7 +122,7 @@ CodeRM/
 │   ├── evaluate.py           # Execute unit test on code solution and obtain the result.
 │   └── calculate_result.py   # Calculate the best-of-n accuracy based on majority voting. 
 │
-└── requirements.txt          # The required environment for reproduction.
+└── docker_source/            # The source code of the code execution environment.
 ```
 
 ### Reproduction Guide
@@ -165,6 +165,13 @@ To execute the generated unit tests efficiently, we provide a prebuilt Docker im
 
 ```bash
 docker pull kaka0605/exec_unit_test:24.12.30
+```
+
+You can also build the Docker by yourself:
+
+```
+cd docker_source
+docker buildx build --platform linux/amd64 -t kaka0605/exec_unit_test:24.12.30 --load .
 ```
 
 Once the setup is complete, execute the unit tests on the generated code solutions:
