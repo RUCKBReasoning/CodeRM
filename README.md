@@ -1,4 +1,4 @@
-# Dynamic Scaling of Unit Tests for Code Reward Modeling
+# [ACL 2025] Dynamic Scaling of Unit Tests for Code Reward Modeling
 
 ![Scaling on different solution](images/scale_on_diff_sol.png)
 ![Scaling on different difficulty](images/scale_on_diff_diff.png)
@@ -13,6 +13,8 @@
 <hr>
 
 ## 🔔 News
+
+[2025-05] 🎉 CodeRM has been accepted to ACL 2025 as a main conference paper.
 
 [2025-01] 🔥 We have open-sourced the unit test generator, training dataset, Docker environment for efficient large-scale code execution, and the code for inference, preprocessing, and evaluation.
 
